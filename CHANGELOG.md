@@ -19,3 +19,13 @@
 * **Qué devolvió la IA:** Una propuesta completa de `BRIEF.md` basada en las especificaciones de los módulos de la Órbita 1, junto con un borrador de estructura para el `CHANGELOG.md`.
 * **Qué se conservó:** La justificación del problema basada en la fatiga mental y el desperdicio alimentario, la definición de los criterios de éxito cuantitativos y el presupuesto de peso de página (500 KB) alineado con la directiva 2.4 de las *Web Sustainability Guidelines*.
 * **Qué se cambió y por qué:** Se ajustaron las referencias de las User Personas (María y Manuela) y los enlaces directos a FigJam/Figma para adaptar el contenido a la estructura real del repositorio en GitHub.
+
+---
+
+## Órbita 2 — Sistema Visual y Design System
+
+### Documentación y Memoria del Sistema Visual (`ORBITA2.md`)
+* **Qué se pidió:** Redacción, revisión y estructuración del entregable escrito `ORBITA2.md` a partir de las decisiones tomadas en Figma (retícula de 4 y 12 columnas, escala tipográfica IBM Plex, tokens de color y la lista de comprobación de la rúbrica).
+* **Qué devolvió la IA:** Un borrador estructurado en Markdown con las tablas de enlace al archivo de Figma/Prototipos, la lista de verificación de requisitos superados y los resúmenes explicativos por subsistema (color, tipografía, espaciado, componentes y responsive).
+* **Qué se conservó:** La justificación técnica del uso de Auto Layout, la escala espacial basada en 8px/4px, el desglose de componentes reales (tarjetas, escáner, cabecera) y los enlaces directos a las páginas del lienzo de Figma.
+* **Qué se cambió y por qué:** Se ajustó la terminología de las variables a su nombre en español (`color/primario`), se formatearon adecuadamente los enlaces del prototipo en las tablas y se matizó la decisión de adaptar Desktop vs Mobile.
