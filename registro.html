@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TuDespensa — Registro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <header class="cabecera cabecera--simple o-contenedor">
+    <a href="index.html" class="cabecera__marca">TuDespensa</a>
+  </header>
+
+  <main class="o-contenedor">
+    <section class="autenticacion">
+      
+      <header class="autenticacion__cabecera">
+        <a href="index.html" class="autenticacion__volver" aria-label="Volver al inicio">←</a>
+        <h1 class="autenticacion__titulo">Registro</h1>
+      </header>
+
+      <article class="tarjeta-auth">
+        <nav class="pestanas" aria-label="Modo de autenticación">
+          <a href="acceso.html" class="pestanas__enlace">Iniciar sesión</a>
+          <a href="registro.html" class="pestanas__enlace pestanas__enlace--activo" aria-current="page">Registrarse</a>
+        </nav>
+
+        <form class="formulario-auth" action="inventario.html" method="post">
+          <p class="campo">
+            <label for="registro-email" class="campo__etiqueta">Correo electrónico</label>
+            <input type="email" id="registro-email" name="email" class="campo__entrada" placeholder="ejemplo@correo.com" required>
+          </p>
+
+          <p class="campo">
+            <label for="registro-password" class="campo__etiqueta">Contraseña</label>
+            <input type="password" id="registro-password" name="password" class="campo__entrada" placeholder="••••••••" required>
+          </p>
+
+          <p class="campo">
+            <label for="registro-confirmar" class="campo__etiqueta">Confirmar contraseña</label>
+            <input type="password" id="registro-confirmar" name="confirmar_password" class="campo__entrada" placeholder="••••••••" required>
+          </p>
+
+          <button type="submit" class="formulario-auth__boton boton boton--oscuro boton--grande">Crear cuenta</button>
+        </form>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>
